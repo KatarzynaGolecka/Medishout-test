@@ -2,6 +2,15 @@
 
 import LoginPage from '../page-objects/pages/LoginPage';
 
+const noActiveUser = {
+    email: 'medishouttestuser1@gmail.com',
+    password: 'ZetuO9'
+};
+
+const staffUser = {
+    email: 'medishouttestuser2@gmail.com',
+};
+
 
 describe('Failed login attempts. || login-attempts.spec.js', () => {
     beforeEach(function () {
