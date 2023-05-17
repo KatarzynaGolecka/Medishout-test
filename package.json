@@ -1,0 +1,14 @@
+{
+  "name": "medishout-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kasia",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.12.0"
+  }
+}
